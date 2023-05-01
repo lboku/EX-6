@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.homepage{
+    background-image:url(./image/pink\ floyd.jpeg) ;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+.baner{
+    display: flex;
+    width:100%;
+    height: 50px;
+    justify-content: center;  
+    box-shadow: 0 0 30px;
+}
+.name{
+    margin-top: 0;
+    color: aliceblue;
+    font-style:oblique;
+}
+.video{
+    width: 100%;
+    height: 200px;
+}
+.logo{
+height: 40px;
+width: 40px;
+}
+.navigation{
+margin-top: 10px;
+position: absolute;
+width: 200px;
+height: 310px;
+background: transparent;
+border: 2px solid rgba(255, 255, 255, 0.3);
+border-radius: 10px;
+backdrop-filter: blur(10px);
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.844);
+display:flex;
+align-items: center;
+ }
+ .navstyle{
+    color: aliceblue;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+
+ }
+ .dark{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-image: url(./image/abstract-digital-art-selective-coloring-artwork-wallpaper-preview.svg);
+    height: 38px;
+    width: 148px;
+    background-size: cover;
+    position: relative;
+ background-repeat:no-repeat
+}
+.wall{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-image: url(./image/wall.svg);
+    height: 38px;
+    width: 148px;
+    background-size: cover;
+    position: relative;
+ background-repeat:no-repeat
+}
+
+.the_final_cut{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-image: url(./image/final.svg);
+    height: 38px;
+    width: 148px;
+    background-size: cover;
+    position: relative;
+ background-repeat:no-repeat
+}
+.wish_you{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-image: url(./image/wish.svg);
+    height: 38px;
+    width: 148px;
+    margin-left: 5px;
+    background-size: cover;
+    position: relative;
+ background-repeat:no-repeat
+
+}
+ .back{
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 40px;
+    width: 150px;   
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 2px;
+box-shadow: 0 0 30px rgba(255, 0, 0, 0);
+display:grid;
+align-items: center;
+ }
+ .shop{
+    margin: 0;
+    padding: 0;
+    color: rgb(7, 6, 6);
+    text-decoration: none;
+   background-color: rgb(2, 42, 29);
+    height: 38px;
+    width: 148px;
+    background-size: cover;
+    position: relative;
+ background-repeat:no-repeat
+}
+.dark_body{
+    background-image:url(./image/dark_page.png) ;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    height: 100vh;
+    margin: 0;
+    padding: 0; 
+}
+.wall_body{
+    background-image:url(./image/wall.jpeg) ;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    height: 100vh;
+    margin: 0;
+    padding: 0; 
+}
+.final_body{
+    background-image:url(./image/final_back.jpeg) ;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    height: 100vh;
+    margin: 0;
+    padding: 0; 
+
+}
+.wish_body{
+    background-image:url(./image/wish.back.jpeg) ;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    height: 100vh;
+    margin: 0;
+    padding: 0; 
+
+}
+.paragraph{
+    text-overflow: ellipsis;
+    overflow: hidden;
+   
+    padding: 5px;
+    margin-left: 220px;
+    margin-top: 10px;
+height: 300px;
+background: transparent;
+border: 2px solid rgba(255, 255, 255, 0.3);
+border-radius: 10px;
+backdrop-filter: blur(10px);
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.844);
+display:flex;
+align-items: center;
+margin-right: 20px;
+color: aliceblue;
+
+}
+.one{
+display: flex;
+}
+.shop{
+    background-color: blanchedalmond;
+}
+.shop_name{
+    margin-top: 10px;
+    color: aliceblue;
+    font-style:oblique;
+    justify-content:center ;
+    text-align: center;
+}
+.album{
+    margin-top: 10px;
+    width: 60px;
+    height: 100px;
+}
+.shop_border{
+margin-top: 10px;
+width: 200px;
+height: 300px;
+background: transparent;
+border: 2px solid rgba(255, 255, 255, 0.3);
+border-radius: 10px;
+backdrop-filter: blur(10px);
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.844);
+text-align: center;
+align-items: center; 
+}
+.buy{
+    margin-left: 20px;
+    height: 40px;
+    width: 150px;
+    background-color: rgb(4, 196, 4);   
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 2px;
+box-shadow: 0 0 30px rgba(255, 0, 0, 0);
+display: grid;
+align-items: center;
+}
+.horizontal {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    float: left;
+
+  }
